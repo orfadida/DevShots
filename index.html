@@ -7,48 +7,51 @@
     <link rel="stylesheet" type="text/css" href="css/size.css"/>
     <link rel="stylesheet" type="text/css" href="css/FontSize.css"/>
     <link rel="stylesheet" type="text/css" href="css/margin.css"/>
+    <link rel="stylesheet" type="text/css" href="css/NavBar.css"/>
 </head>
 <body>
     <main>
-        <header>
-            <div class="background-color-2">
-              <div class="background-color-1">
-                  <div class="wrapper page-size">
-                    <h1>Dev Shots</h1>
-                    <h2>אירוע המפתחים</h2>
-                    <p>NetCraft</p>
-                  </div>
-                <figure>
-                    <img src="http://www.google.co.il" alt="">
-                </figure>
-                <div>
-                    <nav>
-                        <ul>
-                            <li>מה זה</li>
-                            <li>הרצאות</li>
-                            <li>איפה החניה ?</li>
-                            <li>הרשמה</li>
-                            <li>מידע שימושי</li>
-                            <li>עלינו</li>
-                        </ul>
-                    </nav>
-                </div>
-              </div>
-                    <div> <!--separation line -->
+        <header class="relative">
+                <nav class="background-color-1">
+                    <div class="dropdown">
+                        <button class="dropbtn">ניווט</button>
+                        <div class="dropdown-content">
+                            <a>מה זה</a>
+                            <a>הרצאות</a>
+                            <a>איפה החניה ?</a>
+                            <a>הרשמה</a>
+                            <a>מידע שימושי</a>
+                            <a>עלינו</a>
+                        </div>
                     </div>
-                    <h3>אירוע פיתוח בראש טוב</h3>
-                    <p>לדבר על טכנולוגיות מהחזית <br>
-                        ואתגרים שווים עם גיבורי<br>
-                        יום יום כמוכם</p>
-                    <figure>
+                    <div class="wrapper nav-titel">
+                      <div class="wrapper font-color-1 page-size">
+                        <h1>Dev Shots</h1>
+                        <span>אירוע המפתחים</span>
+                        <span class="haed-company">NetCraft</span>
+                      </div>
+                    </div>
+                    <!--figure>
                         <img src="http://www.google.co.il" alt="">
-                    </figure>
-                    <div> <!--separation line -->
+                    </figure-->
+                </nav>
+                <div class="background-color-2">
+                    <div>
+                        <div class="wrapper page-size">
+                            <h3 class="font-color-1 margin-0 padding-top">אירוע פיתוח<br>בראש טוב</h3>
+                            <p class="bold">לדבר על טכנולוגיות מהחזית <br>
+                                ואתגרים שווים עם גיבורי<br>
+                                יום יום כמוכם</p>
+                            <!--figure>
+                                <img src="http://www.google.co.il" alt="">
+                            </figure-->
+                        </div>
                     </div>
                 </div>
-            </div>
+                <div> <!--separation line -->
+                </div>
         </header>
-        <section>
+        <section class="relative">
         <section class="background-color-3">
             <div class="wrapper page-size">
                 <div>
@@ -88,52 +91,66 @@
             <section class="background-color-4">
                 <div class="wrapper page-size">
                     <div>
-                        <span>אז איפה שמים את האוטו ?</span>
+                        <p class="margin-0 bold margin-bottom-20 font-size-1 inline-block">אז איפה שמים את האוטו ?</p>
                         <span>ועוד כמה פרטים חשובים ...</span>
                     </div>
                     <div>
-                        <p>הערב יערך במועדון הסאבליים</p>
-                        <p>דרך שלמה 53, תל אביב</p>
+                        <p class="margin-0 bold font-size-2">הערב יערך במועדון הסאבליים</p>
+                        <p class="margin-0">דרך שלמה 53, תל אביב</p>
+                    </div>
+                    <div> <!--separation line -->
+                    </div>
+                    <div class="bold font-size-2">
+                        <div class="inline-block">
+                            <div class="inline-block">
+                                <p>
+        מתכנסים<br>בשעה
+                                </p>
+                            </div>
+                            <div class="inline-block">
+                                <p>18:30</p>
+                            </div>
+                        </div>
+                        <div class="inline-block">
+                            <div class="inline-block">
+                                <p>
+        מתחילים<br>בשעה
+                                </p>
+                            </div>
+                            <div class="inline-block">
+                                <p>19:00</p>
+                            </div>
+                        </div>
                     </div>
                     <div> <!--separation line -->
                     </div>
                     <div>
                         <div>
-                            <p>
-    מתכנסים<br>בשעה
-                            </p>
-                            <span>18:30</span>
+                            <div>
+                                <p>
+                                    חניה
+                                </p>
+                            </div>
+                                <div>
+                                    <ol>
+                                        <li>חניון אלי פלט</li>
+                                        <li>רחוב אלפסי</li>
+                                        <li>רחוב חיים בן עטר</li>
+                                    </ol>
+                                </div>
                         </div>
                         <div>
-                            <p>
-    מתחילים<br>בשעה
-                            </p>
-                            <span>19:00</span>
-                        </div>
-                    </div>
-                    <div> <!--separation line -->
-                    </div>
-                    <div>
-                        <p>
-                            חניה
-                        </p>
-                    </div>
-                        <p>
-                            אוטובוסים
-                        </p>
-                    <div>
-                        <div>
-                            <ol>
-                                <li>חניון אלי פלט</li>
-                                <li>רחוב אלפסי</li>
-                                <li>רחוב חיים בן עטר</li>
-                            </ol>
-                        </div>
-                        <div>
-                            <ol class="margin-0">
-                                <li>רכבת מרכז 142-42</li>
-                                <li>תחנה מרכזית 163,201,96</li>
-                            </ol>
+                            <div>
+                                <p>
+                                    אוטובוסים
+                                </p>
+                            </div>
+                            <div>
+                                <ol class="margin-0">
+                                    <li>רכבת מרכז 142-42</li>
+                                    <li>תחנה מרכזית 163,201,96</li>
+                                </ol>
+                            </div>
                         </div>
                         <div>
                             <!--figure>
@@ -162,28 +179,28 @@
                     <div>
                         <form class="registration-form label registration-form input">
                             <p>
-                            <label for="name">שם מלא</label>
-                            <input tabindex="1" type="text" name="name" id="name" placeholder="פרטי וגם משפחה">
+                                <label for="name">שם מלא</label>
+                                <input tabindex="1" type="text" name="name" id="name" placeholder="פרטי וגם משפחה">
                             </p>
                             <p>
-                            <label for="position">תפקיד</label>
-                            <input tabindex="2" type="text" name="position" id="position" placeholder="מה אתם עושים ביום יום">
+                                <label for="position">תפקיד</label>
+                                <input tabindex="2" type="text" name="position" id="position" placeholder="מה אתם עושים ביום יום">
                             </p>
                             <p>
-                            <label for="company">ארגון</label>
-                            <input tabindex="3" type="text" name="company" id="company" placeholder="מי משלם לכם משכורת">
+                                <label for="company">ארגון</label>
+                                <input tabindex="3" type="text" name="company" id="company" placeholder="מי משלם לכם משכורת">
                             </p>
                             <p>
-                            <label for="tel">מספר טלפון</label>
-                            <input tabindex="4" type="tel" min="10" max="20" name="tel" id="tel" placeholder="או סלולרי">
+                                <label for="tel">מספר טלפון</label>
+                                <input tabindex="4" type="tel" min="10" max="20" name="tel" id="tel" placeholder="או סלולרי">
                             </p>
                             <p>
-                            <label for="have">יש חברים ?</label>
-                            <input tabindex="5" type="text" name="have"  id="have" placeholder="יש לי מלא">
+                                <label for="have">יש חברים ?</label>
+                                <input tabindex="5" type="text" name="have"  id="have" placeholder="יש לי מלא">
                             </p>
                             <p>
-                            <label for="company"></label>
-                            <input tabindex="6" type="submit" name="submit" value="זהו ! שלח אותי" id="" class="form-btn">
+                                <label for="company"></label>
+                                <input tabindex="6" type="submit" name="submit" value="זהו ! שלח אותי" id="" class="form-btn">
                             </p>
                         </form>
                     </div>

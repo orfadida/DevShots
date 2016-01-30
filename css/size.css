@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 /** wrapper **/
 .wrapper {
     margin: 0 auto;
@@ -33,4 +36,8 @@ body {
 .form-btn {
     font-size: 20px;
     cursor: pointer;
+}
+.nav-titel {
+    width: 800px;
+    position: relative;
 }

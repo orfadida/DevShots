@@ -16,3 +16,23 @@
     border: 0;
     border-bottom: 2px solid #3c3c3c;
 }
+h1 {
+    display: inline-block;
+}
+.haed-company{
+    position: absolute;
+    left: 0;
+    top: 25px;
+}
+.relative {
+    position: relative;
+}
+.padding-top {
+    padding-top: 25px;
+}
+.dropdown-content a {
+    border-bottom: 1px solid #c1c1c1;
+}
+.inline-block {
+    display: inline-block;
+}
